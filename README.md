@@ -1,2 +1,2 @@
 # Amazon
-auther name - sangam kumar
+made by - sangam kumar
