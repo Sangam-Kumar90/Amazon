@@ -1,0 +1,356 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    border: border-box;
+} 
+body{
+    background-image: url("BACKGROUND\ PHOTO.jpg");
+    background-size: cover;
+}
+#navbar {
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.search-bar{
+    display: flex;
+}
+button {
+    background-color: #f08804;
+    font-size: 15px;
+}
+input {
+    color: black;
+    font-size: 20px;
+}
+#nav-logo{
+    height: 50px;
+    width: 100px;
+}
+#logo{
+    height: 50px;
+    width: 100%;
+    background-image: url(amazon\ logo.png);
+    background-size: cover;
+}
+#border{
+    border: 2px solid transparent;
+}
+#border:hover{
+    border: 2px solid white;
+}
+#nav-logo{
+    height: 50px;
+    width: 100px;
+}
+#account{
+    height: 50px;
+    width: 100%;
+}
+#account-border{
+    border: 2px solid transparent;
+}
+#account-border:hover{
+    border: 2px solid white;
+}
+#my-cart{
+    height: 50px;
+    width: 100%;
+}
+#cart-border{
+    border: 2px solid transparent;
+}
+#cart-border:hover{
+    border: 2px solid white;
+}
+#contect-us{
+    height: 50px;
+    width: 100px;
+}
+#contect-border{
+    border: 2px solid transparent;
+}
+#contect-border:hover{
+    border: 2px solid white;
+}
+#search{
+    height: 25px;
+    width: 100%;
+}
+#search-border{
+    border: 2px solid transparent;
+}
+#search-border:hover{
+    border: 2px solid white;
+}
+a {
+   text-decoration: none;
+   font-size: 30px;
+}
+
+/* start panel */
+.panel{
+    background-color: #222f3d;
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+}
+.panel-ops{
+    display: flex;
+    font-size: 0.85rem;
+    width: 60%;
+}
+.panel-ops p{
+    margin-right: 20px;
+}
+
+/* end panel */
+#container{
+    background-color: #e2ac6500;
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    
+} 
+.content{
+    color: black;
+    background-color: white;
+    height: 40px;
+    width: 200px;
+}
+#div1{
+    background-color: rgb(255, 0, 0);
+    height: 200px;
+    width: 200px;
+    display:inline-block;
+    border: 5px solid black;
+    margin-right: 20px;
+    background-image: url(boot\ photo.jpg);
+    background-size: cover;
+}
+#div2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 255, 0);
+    height: 200px;
+    width: 200px;
+    display:inline-block;
+    border: 5px solid black;
+    margin-right: 20px;
+    background-image: url(gedget\ photo.jpg);
+    background-size: cover;
+}
+#div3{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0,0,255,0.5);
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border: 5px solid black;
+    margin-right: 20px;
+    background-image: url(CLOTHS\ PICTURE.jpg);
+    background-size: contain;
+}
+#div4{
+    color: rgb(255, 255, 255);
+    background-color: rgb(228, 143, 157);
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border: 5px solid black;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-image: url(CAR\ PHOTO.jpg);
+    background-size: cover;
+}
+#div5{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 191, 255, 0.5);
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border: 5px solid rgba(0, 0, 0, 0.653);
+    margin-right: 20px;
+    margin-top: 20px;
+    background-image: url(hat\ photo.jpg);
+    background-size: cover;
+}
+#div6{
+     color: rgb(255, 255, 255);
+    background-color: rgba(255, 230, 1, 0.612);
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border: 5px solid #000000a7;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-image: url(bag\ photo.jpg);
+    background-size: cover;
+}
+#div7{
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 230, 1, 0.612);
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border: 5px solid #000000a7;
+    margin-right: 20px;
+    background-image: url("shoes\ photo.jpg");
+    background-size: contain;
+}
+#div8{
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 230, 1, 0.612);
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border: 5px solid #000000a7;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-image: url(house\ photo.jpg);
+    background-size: cover;
+}
+#div9{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 98, 0);
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border: 5px solid #000000a7;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-image: url(MOBILE\ PHOTO.jpg);
+    background-size: contain;
+}
+#div10{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 98, 1);
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border: 5px solid #000000a7;
+    margin-right: 20px;
+    background-image: url(CYCLE\ PHOTO.jpg);
+    background-size: contain;
+}
+#div11{
+     color: rgb(255, 255, 255);
+    background-color: rgb(247, 11, 11);
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border: 5px solid #000000a7;
+    margin-right: 20px;
+    background-image: url(BOOK\ PHOTO.jpg);
+    background-size: contain;
+}
+#div12{
+     color: rgb(255, 255, 255);
+    background-color: rgb(225, 15, 15);
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border: 5px solid #000000a7;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-image: url(BIKE\ PHOTO.jpg);
+    background-size: contain;
+}
+footer{
+    margin-top: 15px;
+}
+
+/* start foot-panel-1 */
+.foot-panel-1{
+    background-color: #374758;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* start foot-panel-2 */
+.foot-panel-2{
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    font-weight: 800;
+    margin-top: 30px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+/* start foot-panel-3 */
+.foot-panel-3{
+    background-color: #222f3d;
+    border-top: 0.8px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-logo{
+    background-image: url(Amazon.jpg);
+    background-size: cover;
+    height: 70px;
+    width: 80px;
+}
+.amazon-logo{
+    background-image: url(Amazon.jpg);
+    background-size: cover;
+    height: 70px;
+    width: 80px;
+}
+
+/* start foot-panel-4 */
+.foot-panel-4{
+    background-color: #0f1111;
+    color: white;
+    height: 100px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.pages{
+    padding-top: 25px;
+}
+
+.pages a{
+    padding-right: 20px;
+}
+
+.copyright{
+    Padding-top: 5px;
+}
+/* end footer aria */
+
+@media(max-width: 800px){
+    a{
+        font-size: 20px;
+    }
+}
+
+
+
